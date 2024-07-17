@@ -8,7 +8,7 @@ Repository for bootcamp of Coding Dojo Data Science Cohort July 2024
 [https://drive.google.com/drive/folders/1ZpQfuM-dj8y833SxGEBH_g77_wJCFr-I?usp=drive_link](https://drive.google.com/drive/folders/1ZpQfuM-dj8y833SxGEBH_g77_wJCFr-I?usp=drive_link)
 
 ## Calendario
-[https://docs.google.com/spreadsheets/d/1SmnR3WEfGtzALsan7dwhDkFLhgDRKuEI6_LbgUpeZfw/edit#gid=0](https://docs.google.com/spreadsheets/d/1TUNS1KmJrJmjFov5HkibRz5vLJ386znn/edit#gid=1145583463)
+[https://docs.google.com/spreadsheets/d/1q2CJyfHn_CRG78LYUPSTe32FnpjzyBaNWzRK23mtUT8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1q2CJyfHn_CRG78LYUPSTe32FnpjzyBaNWzRK23mtUT8/edit?usp=sharing)
 
 ## Carpeta compartida para subir codigos
 [https://drive.google.com/drive/folders/1wRrkm6Pan20D2nCacjhrk1eQZecNn_k0?usp=sharing](https://drive.google.com/drive/folders/1UyWcegMJhE_hQcngU9mG1roNnkggCe_3?usp=drive_link)
