@@ -5,13 +5,10 @@ Repository for bootcamp of Coding Dojo Data Science Cohort July 2024
 [https://us06web.zoom.us/j/81576525453?pwd=4zA4bnN2LzbqaaeeSETh0BB5asVr1i.1](https://us06web.zoom.us/j/81576525453?pwd=4zA4bnN2LzbqaaeeSETh0BB5asVr1i.1)
 
 ## Link de las clases grabadas
-[https://drive.google.com/drive/folders/1ZpQfuM-dj8y833SxGEBH_g77_wJCFr-I?usp=drive_link](https://drive.google.com/drive/folders/1ZpQfuM-dj8y833SxGEBH_g77_wJCFr-I?usp=drive_link)
+[https://drive.google.com/drive/u/7/folders/1Bjen-nzIrHDT32GWzzB1vWY6_Ml-DPea](https://drive.google.com/drive/u/7/folders/1Bjen-nzIrHDT32GWzzB1vWY6_Ml-DPea)
 
 ## Calendario
-[https://docs.google.com/spreadsheets/d/1q2CJyfHn_CRG78LYUPSTe32FnpjzyBaNWzRK23mtUT8/edit?usp=sharing](https://docs.google.com/spreadsheets/d/1q2CJyfHn_CRG78LYUPSTe32FnpjzyBaNWzRK23mtUT8/edit?usp=sharing)
-
-## Carpeta compartida para subir codigos
-[https://drive.google.com/drive/folders/1wRrkm6Pan20D2nCacjhrk1eQZecNn_k0?usp=sharing](https://drive.google.com/drive/folders/1UyWcegMJhE_hQcngU9mG1roNnkggCe_3?usp=drive_link)
+[https://docs.google.com/spreadsheets/d/1SCD6ZCDfPW9RazYD2xggtTht3wF7Lb5lWavkPr5vYyY/edit?gid=0#gid=0](https://docs.google.com/spreadsheets/d/1SCD6ZCDfPW9RazYD2xggtTht3wF7Lb5lWavkPr5vYyY/edit?gid=0#gid=0)
 
 ## Link a Discord
 [http://discord.codingdojo.com/join](http://discord.codingdojo.com/join)
