@@ -5,10 +5,10 @@ Repository for bootcamp of Coding Dojo Data Science Cohort July 2024
 [https://us06web.zoom.us/j/81576525453?pwd=4zA4bnN2LzbqaaeeSETh0BB5asVr1i.1](https://us06web.zoom.us/j/81576525453?pwd=4zA4bnN2LzbqaaeeSETh0BB5asVr1i.1)
 
 ## Link de las clases grabadas
-[https://drive.google.com/drive/u/7/folders/1Bjen-nzIrHDT32GWzzB1vWY6_Ml-DPea](https://drive.google.com/drive/u/7/folders/1Bjen-nzIrHDT32GWzzB1vWY6_Ml-DPea)
+[https://drive.google.com/drive/u/5/folders/1Q5EngOGQpGa2WsL2qbBtx1dnqtmkUjml](https://drive.google.com/drive/u/5/folders/1Q5EngOGQpGa2WsL2qbBtx1dnqtmkUjml)
 
 ## Calendario
-[https://docs.google.com/spreadsheets/d/1SCD6ZCDfPW9RazYD2xggtTht3wF7Lb5lWavkPr5vYyY/edit?gid=0#gid=0](https://docs.google.com/spreadsheets/d/1SCD6ZCDfPW9RazYD2xggtTht3wF7Lb5lWavkPr5vYyY/edit?gid=0#gid=0)
+[https://docs.google.com/spreadsheets/d/1IlLgmXd_23iLqEh5GtW7THaFG0BOllgG5QrCdayEGfs/edit?gid=0#gid=0](https://docs.google.com/spreadsheets/d/1IlLgmXd_23iLqEh5GtW7THaFG0BOllgG5QrCdayEGfs/edit?gid=0#gid=0)
 
 ## Link a Discord
 [http://discord.codingdojo.com/join](http://discord.codingdojo.com/join)
