@@ -1,4 +1,4 @@
-# Data Science July 2024
+# Data Science July 2024 Coding Dojo
 Repository for bootcamp of Coding Dojo Data Science Cohort July 2024
 
 ## Link de las clases
