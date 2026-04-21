@@ -1,0 +1,21 @@
+# Solo mostrar Clase 1 en el repo — el resto se trabaja localmente
+Clases/2-Pandas/
+Clases/3-Matplotlib/
+Clases/4-StatisticalInference/
+Clases/5-IntroML/
+Clases/6-RegressionModels/
+Clases/7-ClassificationModels/
+Clases/8-Boosting/
+Clases/9-Unsupervised/
+Clases/10-NeuralNetworks/
+
+# Sistema
+.DS_Store
+**/.DS_Store
+*.pptx
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+**/.ipynb_checkpoints/
