@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="420" viewBox="0 0 900 420">
+  <defs>
+    <linearGradient id="pyGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6C3CE1"/>
+      <stop offset="100%" style="stop-color:#00C9A7"/>
+    </linearGradient>
+    <linearGradient id="barGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6C3CE1;stop-opacity:0.9"/>
+      <stop offset="100%" style="stop-color:#00C9A7;stop-opacity:0.9"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="900" height="420" rx="16" fill="#0F0F1A"/>
+  <rect width="900" height="5" rx="2" fill="url(#pyGrad)"/>
+
+  <!-- Title -->
+  <text x="450" y="45" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="700" fill="white">Lenguajes más usados — Stack Overflow Developer Survey 2025</text>
+  <text x="450" y="68" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="13" fill="#888">49,000+ desarrolladores encuestados</text>
+
+  <!-- Bar chart data: language, pct, bar_width (max ~520px for 66%) -->
+  <!-- JavaScript 66% -->
+  <text x="185" y="108" text-anchor="end" font-family="monospace" font-size="14" fill="#CCC">JavaScript</text>
+  <rect x="195" y="94" width="504" height="22" rx="4" fill="#334"/>
+  <rect x="195" y="94" width="504" height="22" rx="4" fill="#F0DB4F" opacity="0.7"/>
+  <text x="707" y="111" font-family="monospace" font-size="14" fill="#F0DB4F" font-weight="bold">66%</text>
+
+  <!-- HTML/CSS 61.9% -->
+  <text x="185" y="143" text-anchor="end" font-family="monospace" font-size="14" fill="#CCC">HTML/CSS</text>
+  <rect x="195" y="129" width="504" height="22" rx="4" fill="#334"/>
+  <rect x="195" y="129" width="473" height="22" rx="4" fill="#E44D26" opacity="0.7"/>
+  <text x="676" y="146" font-family="monospace" font-size="14" fill="#E44D26" font-weight="bold">61.9%</text>
+
+  <!-- SQL 58.6% -->
+  <text x="185" y="178" text-anchor="end" font-family="monospace" font-size="14" fill="#CCC">SQL</text>
+  <rect x="195" y="164" width="504" height="22" rx="4" fill="#334"/>
+  <rect x="195" y="164" width="448" height="22" rx="4" fill="#00758F" opacity="0.8"/>
+  <text x="651" y="181" font-family="monospace" font-size="14" fill="#00C9A7" font-weight="bold">58.6%</text>
+
+  <!-- Python 57.9% — HIGHLIGHTED -->
+  <rect x="190" y="196" width="518" height="32" rx="6" fill="#6C3CE1" opacity="0.15"/>
+  <text x="185" y="219" text-anchor="end" font-family="monospace" font-size="16" fill="white" font-weight="bold">Python ⭐</text>
+  <rect x="195" y="200" width="504" height="26" rx="4" fill="#222"/>
+  <rect x="195" y="200" width="443" height="26" rx="4" fill="url(#barGrad)"/>
+  <text x="646" y="219" font-family="monospace" font-size="16" fill="white" font-weight="bold">57.9%</text>
+  <text x="800" y="219" font-family="monospace" font-size="12" fill="#00C9A7">↑ +7pp vs 2024</text>
+
+  <!-- Bash 48.7% -->
+  <text x="185" y="253" text-anchor="end" font-family="monospace" font-size="14" fill="#CCC">Bash/Shell</text>
+  <rect x="195" y="239" width="504" height="22" rx="4" fill="#334"/>
+  <rect x="195" y="239" width="373" height="22" rx="4" fill="#4EAA25" opacity="0.6"/>
+  <text x="576" y="256" font-family="monospace" font-size="14" fill="#4EAA25" font-weight="bold">48.7%</text>
+
+  <!-- TypeScript 43.6% -->
+  <text x="185" y="288" text-anchor="end" font-family="monospace" font-size="14" fill="#CCC">TypeScript</text>
+  <rect x="195" y="274" width="504" height="22" rx="4" fill="#334"/>
+  <rect x="195" y="274" width="334" height="22" rx="4" fill="#3178C6" opacity="0.7"/>
+  <text x="537" y="291" font-family="monospace" font-size="14" fill="#3178C6" font-weight="bold">43.6%</text>
+
+  <!-- Footer stats -->
+  <rect x="40" y="330" width="250" height="68" rx="10" fill="#1A1A2E"/>
+  <text x="165" y="355" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#888">Python entre aprendices</text>
+  <text x="165" y="382" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="32" font-weight="900" fill="url(#pyGrad)">71.8%</text>
+  <text x="165" y="400" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#666">El más elegido para aprender</text>
+
+  <rect x="325" y="330" width="250" height="68" rx="10" fill="#1A1A2E"/>
+  <text x="450" y="355" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#888">TIOBE Index — Abril 2026</text>
+  <text x="450" y="382" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="32" font-weight="900" fill="url(#pyGrad)">#1</text>
+  <text x="450" y="400" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#666">Récord histórico: 26.98% (Jul 2025)</text>
+
+  <rect x="610" y="330" width="250" height="68" rx="10" fill="#1A1A2E"/>
+  <text x="735" y="355" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="12" fill="#888">Kaggle — Profesionales DS</text>
+  <text x="735" y="382" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="32" font-weight="900" fill="url(#pyGrad)">87%</text>
+  <text x="735" y="400" text-anchor="middle" font-family="'Segoe UI',Arial,sans-serif" font-size="11" fill="#666">usan Python regularmente</text>
+</svg>
