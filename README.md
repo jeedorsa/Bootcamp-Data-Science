@@ -2,15 +2,7 @@
 
 Repositorio oficial del programa **Data Science** de SKILLNEST.
 
----
 
-## 👋 Bienvenida del programa
-
-Estimadas y estimados participantes,
-
-Mi nombre es **Valentina Sepúlveda** y soy KPM (Key Program Manager) de este programa. Mi rol es acompañarlos durante todo el proceso, asegurar que cuenten con el apoyo necesario y velar por el correcto desarrollo del programa.
-
-Les damos una cordial bienvenida al inicio del programa Data Science. Nos alegra contar con su participación y les deseamos mucho éxito en este proceso de aprendizaje.
 
 ---
 
@@ -84,7 +76,3 @@ Las clases se realizarán a través de **Zoom**. Les recomendamos descargar e in
 ---
 
 *Estamos seguros de que este será un proceso de aprendizaje desafiante y enriquecedor. Como equipo, estaremos acompañándolos en cada etapa.*
-
-**Valentina Sepúlveda Albarrán**  
-SKILLNEST | KPM Leader  
-vsepulveda@skillnest.com · www.skillnest.com
