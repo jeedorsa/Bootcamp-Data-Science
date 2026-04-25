@@ -1,4 +1,4 @@
-# SKILLNEST — Bootcamp Data Science
+# SKILLNEST — Bootcamp Data Science SONDA
 
 Repositorio oficial del programa **Data Science** de SKILLNEST.
 
