@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="435" height="188" viewBox="0 0 435 188">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6C3CE1;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00C9A7;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Background rounded rect -->
+  <rect width="435" height="188" rx="18" ry="18" fill="#0F0F1A"/>
+  <!-- Accent bar -->
+  <rect x="0" y="0" width="435" height="6" rx="3" fill="url(#grad)"/>
+  <!-- Hexagon icon -->
+  <polygon points="55,44 85,28 115,44 115,76 85,92 55,76" fill="none" stroke="url(#grad)" stroke-width="3"/>
+  <text x="85" y="68" text-anchor="middle" font-family="monospace" font-size="22" font-weight="bold" fill="url(#grad)">&lt;/&gt;</text>
+  <!-- SKILLNEST text -->
+  <text x="130" y="72" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="2" fill="white">SKILL</text>
+  <text x="265" y="72" font-family="'Segoe UI', Arial, sans-serif" font-size="42" font-weight="900" letter-spacing="2" fill="url(#grad)">NEST</text>
+  <!-- Tagline -->
+  <text x="130" y="102" font-family="'Segoe UI', Arial, sans-serif" font-size="14" fill="#8888AA" letter-spacing="4">BOOTCAMP · DATA SCIENCE</text>
+  <!-- Bottom accent dots -->
+  <circle cx="130" cy="145" r="4" fill="#6C3CE1" opacity="0.8"/>
+  <circle cx="148" cy="145" r="4" fill="#8B5CF6" opacity="0.6"/>
+  <circle cx="166" cy="145" r="4" fill="#00C9A7" opacity="0.4"/>
+</svg>
