@@ -17,3 +17,16 @@ __pycache__/
 *.pyc
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
+
+# Scripts y datos sensibles — nunca pushear
+revisar_tareas.py
+tarea_extraida.json
+resultados_calificacion.json
+error_screenshot.png
+*.json
+*.png
+prueba.py
+
+# Datasets grandes
+Clases/3-Matplotlib/athlete_events.csv
+Clases/3-Matplotlib/athleteEventsNoPersonal.csv
