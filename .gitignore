@@ -1,6 +1,4 @@
 # Solo mostrar clases completadas en el repo — el resto se trabaja localmente
-Clases/4-StatisticalInference/
-Clases/5-IntroML/
 Clases/6-RegressionModels/
 Clases/7-ClassificationModels/
 Clases/8-Boosting/
@@ -18,15 +16,23 @@ __pycache__/
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
 
-# Scripts y datos sensibles — nunca pushear
-revisar_tareas.py
-tarea_extraida.json
-resultados_calificacion.json
-error_screenshot.png
-*.json
-*.png
-prueba.py
+# Carpeta de calificaciones — NUNCA pushear (contiene datos de estudiantes)
+calificaciones fundamentals/
 
-# Datasets grandes
+# Examenes recibidos de estudiantes (NUNCA pushear — datos sensibles)
+examenes/
+pruebas_2/
+examen3/
+
+# Datasets grandes / sensibles
+hotel_bookings.csv
+b2b-sonda-data-science-abril-2026.xlsx
 Clases/3-Matplotlib/athlete_events.csv
 Clases/3-Matplotlib/athleteEventsNoPersonal.csv
+
+# Capturas y temporales (solo raíz — NO afecta imágenes de clases)
+/*.png
+error_screenshot.png
+
+# Variables de entorno
+.env
