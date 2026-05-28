@@ -15,6 +15,9 @@ __pycache__/
 .ipynb_checkpoints/
 **/.ipynb_checkpoints/
 
+# Modelos entrenados (artefactos generados al ejecutar notebooks)
+*.joblib
+
 # Carpeta de calificaciones — NUNCA pushear (contiene datos de estudiantes)
 calificaciones fundamentals/
 
