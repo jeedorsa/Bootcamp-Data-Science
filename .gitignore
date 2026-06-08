@@ -1,7 +1,9 @@
 # Solo mostrar clases completadas en el repo — el resto se trabaja localmente
-Clases/8-Boosting/
 Clases/9-Unsupervised/
 Clases/10-NeuralNetworks/
+
+# Solucionarios de ejercicios — solo locales, los estudiantes no los ven
+**/*-SOLUCION-*.ipynb
 
 # Sistema
 .DS_Store
