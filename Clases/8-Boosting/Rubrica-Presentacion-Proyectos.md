@@ -182,7 +182,7 @@ Total disponible por día: ~19 slots. Suficiente para los 22 estudiantes.
 
 ### Link de Calendly (a configurar por el instructor)
 
-`https://calendly.com/jesus-ortiz-skillnest/presentacion-proyecto-final`
+` https://calendly.com/jesus-jeduardo7/30min?month=2026-06&date=2026-06-12  `
 
 Cuando vayan a reservar:
 - Eligen un slot disponible.
@@ -198,8 +198,6 @@ Cuando vayan a reservar:
 2. **No exceder los 3 minutos de pitch.** Se les avisa a los 2:30 y se les corta a los 3:00.
 3. Si se enferman o tienen emergencia, **avisar por mail con 12 horas de anticipación** mínimo para reagendar.
 4. La nota se entrega el mismo día por correo.
-5. Esta presentación pesa **30% de la nota final del módulo**.
-
 ---
 
 ## Una recomendación final
