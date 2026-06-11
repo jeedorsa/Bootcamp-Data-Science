@@ -2,9 +2,6 @@
 Clases/9-Unsupervised/
 Clases/10-NeuralNetworks/
 
-# Solucionarios de ejercicios — solo locales, los estudiantes no los ven
-**/*-SOLUCION-*.ipynb
-
 # Sistema
 .DS_Store
 **/.DS_Store
