@@ -24,6 +24,9 @@ pruebas_2/
 examen3/
 examen 2 1 try/
 
+# Notebook de feedback con notas individuales — SOLO para uso del profesor
+Clases/9-Unsupervised/9.0-Feedback-Examen-Retail.ipynb
+
 # Datasets grandes / sensibles
 hotel_bookings.csv
 b2b-sonda-data-science-abril-2026.xlsx
