@@ -6,7 +6,17 @@
 # Antes de correr este script:
 #   1. Tener Azure CLI instalado: brew install azure-cli
 #   2. Login en Azure: az login
-#   3. Tener Docker corriendo (si vas a buildear local)
+#   3. (IMPORTANTE) Verificar que la suscripcion activa tiene permisos
+#      para crear Resource Groups. Si tienen cuentas corporativas
+#      (BCI, empresa, etc) probablemente NO. Usen cuenta personal.
+#
+#      Para ver suscripciones disponibles:
+#          az account list --output table
+#
+#      Para cambiar a otra:
+#          az account set --subscription "<NOMBRE O ID>"
+#
+#   4. (Opcional) Tener Docker corriendo si quieren buildear local
 #
 # Para correr: bash deploy.sh
 # ============================================================
@@ -16,11 +26,23 @@ set -e  # falla si algun comando falla
 # ── CONFIGURACION (cambien estos valores) ──────────────
 TU_NOMBRE="bootcamp"                      # cambien por su nombre, sin espacios ni mayusculas
 RESOURCE_GROUP="rg-telco-${TU_NOMBRE}"
-LOCATION="eastus"                         # otra opcion: westus2, brazilsouth
+LOCATION="northcentralus"                 # opciones si esta saturada: westus2, brazilsouth, eastus2
 ACR_NAME="acr${TU_NOMBRE}$(date +%s)"     # nombre del Container Registry (debe ser unico global)
 ENV_NAME="env-telco-${TU_NOMBRE}"         # nombre del Container Apps Environment
 APP_NAME="telco-api-${TU_NOMBRE}"         # nombre de la app
 IMAGE_TAG="v1"
+
+# ── VERIFICACION de suscripcion ─────────────────────────
+echo "Verificando suscripcion activa..."
+SUSCRIPCION=$(az account show --query name -o tsv 2>/dev/null) || {
+    echo "ERROR: no estas logueado. Corre 'az login' primero."
+    exit 1
+}
+echo "  Suscripcion activa: $SUSCRIPCION"
+echo "  Si NO es la correcta, cancela con Ctrl+C y cambia con:"
+echo "      az account set --subscription \"<NOMBRE>\""
+echo ""
+sleep 3
 
 echo "==============================================="
 echo "Deploy Telco Churn API a Azure Container Apps"

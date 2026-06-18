@@ -207,6 +207,34 @@ No tienen Azure CLI instalado. Instalen con `brew install azure-cli` (Mac) o equ
 ### "Authentication failed"
 No están logueados. Corran `az login` primero.
 
+### "AuthorizationFailed: The client does not have authorization"
+Su cuenta de Azure activa NO tiene permisos para crear Resource Groups en esa suscripción. Suele pasar con cuentas **corporativas** (de la empresa donde trabajan).
+
+Solución:
+
+```bash
+# Ver todas las suscripciones disponibles
+az account list --output table
+
+# Cambiar a una donde sí tengan permisos (suele ser una "Patrocinio MS",
+# "Azure for Students", "Azure free trial" o cuenta personal)
+az account set --subscription "<NOMBRE-O-ID>"
+
+# Verificar que cambió
+az account show --query name
+```
+
+Si solo tienen cuenta corporativa sin permisos, pidan a IT que les habilite un Resource Group propio o creen una cuenta personal de Azure for Students gratis: https://azure.microsoft.com/free/students/
+
+### "AADSTS700082: The refresh token has expired"
+El token de su sesión expiró (>90 días sin usar esa suscripción). Solución:
+
+```bash
+az login --scope https://management.core.windows.net//.default
+```
+
+Se abre el navegador. Elijan la cuenta correcta y vuelvan a correr `bash deploy.sh`.
+
 ### El deploy falla en el paso 3 (build)
 Verifiquen que están en la carpeta `template-telco-api/` cuando ejecutan `bash deploy.sh`. Tiene que ver el `Dockerfile` en el directorio actual.
 
